@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+footer{
+    background-color: #00FF00;
+    font-family: "Montserrat", sans-serif ;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;}
+body{
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 80px;
+}
+.cabecalho{
+    padding: 2% 0% 0% 10%;
+}
+.cabecalho-menu-link{
+    font-family: "Montserrat", sans-serif ;
+    font-size: 24px;
+    font-weight: 600;
+    color: #00FF00;
+    text-decoration: none;
+}
+p{
+    color: white;
+}
+h1{
+    color: white;
+}
+h2{
+    color: white;
+
+}
+strong{
+    color: #00FF00;
+}
+.apresentacao{
+    padding: 8% 15% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+}
+.apresentacao-conteudo{
+width: 793px;
+height: 352px;
+display: flex;
+flex-direction: column;
+gap: 40px;
+height: 75vh;
+}
+.apresentacao-titulo{
+    font-size: 56px;
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+}
+.apresentacao-frase{
+    font-size: 36px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+.apresentacao-subtitulo{
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+.apresentacao-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+.apresentacao-links-link{
+    border: 2px solid #00FF00;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    font-size: 24px;
+    width: 378px;
+    padding: 16px;
+    border-radius: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    flex: 1
+}
+.apresentacao-links-link:hover{
+    background-color: #272727;
+}
+img{
+    border-radius: 16px;
+}
